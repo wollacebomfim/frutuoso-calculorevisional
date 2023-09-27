@@ -14,12 +14,12 @@ try {
     $EmailEnviar->isSMTP();
     $EmailEnviar->Host = 'smtp.office365.com';
     $EmailEnviar->SMTPAuth = true;
-    $EmailEnviar->Username = 'wollace.bomfim@live.com';
-    $EmailEnviar->Password = 'qkqvgqgpjobuplch';
+    $EmailEnviar->Username = '';
+    $EmailEnviar->Password = '';
     $EmailEnviar->Port = 587;
 
-    $EmailEnviar->setFrom('wollace.bomfim@live.com');
-    $EmailEnviar->addAddress('wollace.bomfim@live.com');
+    $EmailEnviar->setFrom('');
+    $EmailEnviar->addAddress('');
 
     $EmailEnviar->isHTML(true);
     $EmailEnviar->Subject = 'Teste email via microsoft';
